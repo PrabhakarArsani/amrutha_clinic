@@ -1115,6 +1115,14 @@ html {
         backdrop-filter: blur(10px);
         border: 1px solid rgba(214, 93, 177, 0.1);
     }
+    .mobile-menu {
+        display: block;
+    }
+    /* Ensure .nav-links.active is always visible on mobile */
+    .nav-links.active {
+        display: flex !important;
+        flex-direction: column;
+    }
 
     .appointment-btn {
         margin-left: 0;
